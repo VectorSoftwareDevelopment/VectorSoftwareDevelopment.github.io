@@ -305,7 +305,7 @@ body:after {
   height: 100%;
   z-index: -1;
   background-attachment: fixed;
-  background: linear-gradient(#a4b9b7, #c1c1c7);
+  background: linear-gradient(#ffffff, #c1c1c7);
   /* background-repeat: repeat, repeat-x; */
   background-size: cover;
 }
@@ -3959,6 +3959,10 @@ button:disabled,
 @media screen and (max-width: 480px) {
   .panel.spotlight .content {
     min-height: 30rem;
+  }
+  #go-to-top-btn {
+    margin: auto !important;
+    margin-top: 20px !important;
   }
 }
 
