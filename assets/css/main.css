@@ -786,7 +786,7 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus,
 textarea:focus {
-  border-color: var(--color-primary);
+  border-color: rgba(29, 185, 84);
 }
 
 option {
@@ -1007,9 +1007,9 @@ input[type="radio"] + label:before {
 .image.filtered:after {
   background: linear-gradient(
     45deg,
-    rgba(0, 0, 0, 0.55) 25%,
-    rgba(0, 0, 0, 0.55) 50%,
-    rgba(0, 0, 0, 0.55)
+    rgba(0, 0, 0, 0.85) 25%,
+    rgba(0, 0, 0, 0.85) 50%,
+    rgba(0, 0, 0, 0.85)
   );
   pointer-events: none;
   content: "";
