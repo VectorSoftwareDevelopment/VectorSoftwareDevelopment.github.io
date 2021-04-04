@@ -1007,9 +1007,9 @@ input[type="radio"] + label:before {
 .image.filtered:after {
   background: linear-gradient(
     45deg,
-    rgba(0, 0, 0, 0.85) 25%,
-    rgba(0, 0, 0, 0.85) 50%,
-    rgba(0, 0, 0, 0.85)
+    rgba(0, 0, 0, 0.45) 25%,
+    rgba(0, 0, 0, 0.45) 50%,
+    rgba(0, 0, 0, 0.45)
   );
   pointer-events: none;
   content: "";
@@ -1025,9 +1025,9 @@ input[type="radio"] + label:before {
 .image.filtered.tinted:after {
   background: linear-gradient(
     45deg,
-    rgba(0, 0, 0, 0.85) 25%,
-    rgba(0, 0, 0, 0.85) 50%,
-    rgba(0, 0, 0, 0.85)
+    rgba(0, 0, 0, 0.45) 25%,
+    rgba(0, 0, 0, 0.45) 50%,
+    rgba(0, 0, 0, 0.45)
   );
 }
 .image.light-darkened :after {
