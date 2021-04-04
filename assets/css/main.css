@@ -1025,9 +1025,9 @@ input[type="radio"] + label:before {
 .image.filtered.tinted:after {
   background: linear-gradient(
     45deg,
-    rgba(0, 0, 0, 0.45) 25%,
-    rgba(0, 0, 0, 0.45) 50%,
-    rgba(0, 0, 0, 0.45)
+    rgba(0, 0, 0, 0.82) 25%,
+    rgba(0, 0, 0, 0.82) 50%,
+    rgba(0, 0, 0, 0.82)
   );
 }
 .image.light-darkened :after {
