@@ -3799,7 +3799,7 @@ body.is-preload #wrapper {
 
 #hero-section-video {
   width: 100% !important;
-  height: 50vh !important;
+  height: 40vh !important;
   object-fit: fill;
   animation: video-opacity 15000ms linear infinite;
   padding: 0;
