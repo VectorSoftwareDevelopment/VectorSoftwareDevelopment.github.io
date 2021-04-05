@@ -3799,26 +3799,24 @@ body.is-preload #wrapper {
 
 #hero-section-video {
   width: 100% !important;
-  height: 100% !important;
+  height: 50vh !important;
   object-fit: fill;
   animation: video-opacity 15000ms linear infinite;
   padding: 0;
+  margin-bottom: -10px;
 }
 #hero-section-video-wrapper {
   background-color: black;
   padding: 0;
+  overflow: hidden;
 }
 .hero-section-img.video {
 }
 @media (min-width: 600px) {
-  .hero-section-img {
-    /* height: 70vh; */
-  }
-  .hero-section-img.video {
-    /* display: block; */
-  }
-  .hero-section-img.mobile {
-    /* display: none; */
+  #hero-section-video {
+    margin: 0;
+    width: 100% !important;
+    height: 100% !important;
   }
 }
 @keyframes video-opacity {
