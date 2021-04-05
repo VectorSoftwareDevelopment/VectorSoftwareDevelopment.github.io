@@ -3,16 +3,6 @@
 
 /* COLOR SCHEME */
 :root {
-  /* ORIGINAL COLORS
-  --color-primary: #e1b7b4;
-  --color-secondary: #726193;
-  --color-accent-1: #e37b7c;
-  --color-accent-2: #353865;
-  --color-accent-3: #ffd900;
-  --color-accent-4: #323459;
-  --color-white: rgb(247, 247, 247);
-  --color-dark: #2e2b37; */
-
   --color-primary: rgb(29, 185, 84);
   --color-secondary: rgb(84, 84, 84);
   --color-accent-1: rgb(33, 33, 33);
@@ -21,103 +11,27 @@
   --color-accent-4: rgb(83, 83, 83);
   --color-white: rgb(247, 247, 247);
   --color-dark: #121212;
-
-  /* --color-bright: rgb(247, 247, 247); */
-  /* --color-light-bright: rgb(247, 247, 247); */
-
-  /* --color-light-dark: rgb(122, 122, 122); */
-  /* --color-black: #222; */
-
-  /* --font-family: "Slabo 27px", serif; */
+}
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+* {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 10%;
   font: inherit;
-  vertical-align: baseline;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 article,
@@ -143,24 +57,6 @@ ul {
   list-style: none;
 }
 
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 body {
   -webkit-text-size-adjust: none;
 }
@@ -168,11 +64,6 @@ body {
 mark {
   background-color: transparent;
   color: inherit;
-}
-
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
 }
 
 input,
@@ -252,21 +143,6 @@ textarea {
 
 @-ms-viewport {
   width: device-width;
-}
-
-html {
-  width: 100%;
-  height: 100%;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
 }
 
 body {
@@ -457,16 +333,6 @@ h6 {
   line-height: 1.3;
   margin: 0 0 0.75rem 0;
   letter-spacing: -0.05em;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  color: inherit;
-  text-decoration: none;
 }
 
 h1.major,
@@ -1550,74 +1416,6 @@ ul.contact-icons.color3 > li:before {
 
 ul.contact-icons.color4 > li:before {
   color: var(--color-accent-2);
-}
-
-/* Table */
-
-.table-wrapper {
-  -webkit-overflow-scrolling: touch;
-  overflow-x: auto;
-}
-
-table {
-  margin: 0 0 1.5rem 0;
-  width: 100%;
-}
-
-table tbody tr {
-  border: solid 1px rgba(255, 255, 255, 0.25);
-  border-left: 0;
-  border-right: 0;
-}
-
-table tbody tr:nth-child(2n + 1) {
-  background-color: rgba(255, 255, 255, 0.075);
-}
-
-table td {
-  padding: 0.75rem 0.75rem;
-}
-
-table th {
-  color: rgba(255, 255, 255, 0.875);
-  font-size: 0.9rem;
-  font-weight: 400;
-  padding: 0 0.75rem 0.75rem 0.75rem;
-  text-align: left;
-}
-
-table thead {
-  border-bottom: solid 2px rgba(255, 255, 255, 0.25);
-}
-
-table tfoot {
-  border-top: solid 2px rgba(255, 255, 255, 0.25);
-}
-
-table.alt {
-  border-collapse: separate;
-}
-
-table.alt tbody tr td {
-  border: solid 1px rgba(255, 255, 255, 0.25);
-  border-left-width: 0;
-  border-top-width: 0;
-}
-
-table.alt tbody tr td:first-child {
-  border-left-width: 1px;
-}
-
-table.alt tbody tr:first-child td {
-  border-top-width: 1px;
-}
-
-table.alt thead {
-  border-bottom: 0;
-}
-
-table.alt tfoot {
-  border-top: 0;
 }
 
 /* Button */
@@ -3995,4 +3793,49 @@ body.is-preload #wrapper {
   font-size: 1.5rem;
   display: block;
   text-align: center;
+}
+
+/* #################3 HERO VIDEO ################## */
+
+#hero-section-video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: fill;
+  animation: video-opacity 15000ms linear infinite;
+  padding: 0;
+}
+#hero-section-video-wrapper {
+  background-color: black;
+  padding: 0;
+}
+.hero-section-img.video {
+}
+@media (min-width: 600px) {
+  .hero-section-img {
+    /* height: 70vh; */
+  }
+  .hero-section-img.video {
+    /* display: block; */
+  }
+  .hero-section-img.mobile {
+    /* display: none; */
+  }
+}
+@keyframes video-opacity {
+  0% {
+    opacity: 0.5;
+  }
+
+  25% {
+    opacity: 0.65;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  75% {
+    opacity: 0.65;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
